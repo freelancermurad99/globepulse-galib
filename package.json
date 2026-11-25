@@ -4,6 +4,14 @@
   "description": "Open-source global city intelligence dashboard aggregating live weather, air quality, FX currency conversion, World Bank economy profiles, and Wikipedia summaries.",
   "license": "MIT",
   "author": "Md. Asadullah Hil Galib <freelancermurad99@gmail.com>",
+  "homepage": "https://freelancermurad99.github.io/globepulse-galib/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freelancermurad99/globepulse-galib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freelancermurad99/globepulse-galib/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

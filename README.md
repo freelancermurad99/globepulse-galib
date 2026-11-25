@@ -4,6 +4,9 @@ An open-source, zero-API-key **Global City Intelligence Dashboard** built with *
 
 GlobePulse aggregates **5 live public APIs in parallel** to deliver real-time weather forecasts, air quality health metrics, live currency exchange conversion, country economic profiles, and city summaries—while exporting cleanly to static HTML/CSS/JS (`out/`) for **cPanel Shared Hosting** and **GitHub Pages**.
 
+- **Live Demo (GitHub Pages):** [https://freelancermurad99.github.io/globepulse-galib/](https://freelancermurad99.github.io/globepulse-galib/)
+- **Repository:** [https://github.com/freelancermurad99/globepulse-galib](https://github.com/freelancermurad99/globepulse-galib)
+
 ---
 
 ## Features
@@ -45,7 +48,7 @@ All 5 upstream data sources are queried in parallel (`Promise.allSettled`) with 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-github-username>/globepulse-galib.git
+git clone https://github.com/freelancermurad99/globepulse-galib.git
 cd globepulse-galib
 
 # 2. Install dependencies
@@ -76,7 +79,7 @@ This repository includes [`.github/workflows/deploy.yml`](.github/workflows/depl
    ```bash
    git add .
    git commit -m "Initial open-source release of GlobePulse"
-   git remote add origin https://github.com/<your-github-username>/globepulse-galib.git
+   git remote add origin https://github.com/freelancermurad99/globepulse-galib.git
    git push -u origin main
    ```
 3. Go to **Repository Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**.
@@ -116,4 +119,5 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more informa
 ## Author & Maintainer
 
 **Md. Asadullah Hil Galib**
+- GitHub: [@freelancermurad99](https://github.com/freelancermurad99)
 - Email: [freelancermurad99@gmail.com](mailto:freelancermurad99@gmail.com)
